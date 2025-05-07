@@ -45,4 +45,4 @@ enum Status {
   }
   
   let currentStatus: Status = Status.Success;
-  console.log(currentStatus); // Output: SUCCESS
+  console.log(currentStatus); // Output: SUCCESSc

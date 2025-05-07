@@ -5,7 +5,7 @@
  */
 
 
-var tuple :[number,string,boolean];
+let tuple :[number,string,boolean];
 tuple = [1,"hello",true]; // valid tuple
 tuple = [2,"world",false]; // valid tuple
 
@@ -18,7 +18,7 @@ console.log(tuple.length)
 
 
 // we can also use type annotation to define the type of tuple
-let deepak :[number,string,boolean]= [1,"hello",true]; // valid tuple
+let deepaks :[number,string,boolean]= [1,"hello",true]; // valid tuple
 
 
 // use the tuple in the objec
@@ -38,3 +38,6 @@ console.log(teacher); // Output: deepak
 console.log(teacher.hobbies[1]); // Output: 2
 teacher.hobbies[0] = "writing"; // valid
 console.log(teacher.hobbies[0]); // Output: reading
+
+var king :[number,string,boolean];
+king = [1,"Deepak Kumar Singh",true]; // valid tuple
